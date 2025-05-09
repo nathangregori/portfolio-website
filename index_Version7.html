@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nathan Gregori - Premium Portfolio Website">
+  <title>Nathan Gregori</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <h1 class="logo">Nathan Gregori</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="parallax">
+    <div class="hero">
+      <h2>Hi, I'm <span id="dynamic-text" class="gradient-text">Nathan</span></h2>
+      <p>A <span class="highlight">Web Developer</span> &amp; <span class="highlight">Tech Enthusiast</span></p>
+      <a href="#projects" class="cta neon">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="glass">
+    <h2>About Me</h2>
+    <p>
+      I’m a recent graduate with a passion for programming and technology. 
+      I love building dynamic web applications and exploring cutting-edge frameworks.
+    </p>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="glass">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>A web app to manage tasks dynamically.</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>An e-commerce website with React.js and Node.js backend.</p>
+      </div>
+      <div class="project">
+        <h3>Project 3</h3>
+        <p>A portfolio showcasing my web development skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="glass">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="neon">Send</button>
+    </form>
+    <div class="socials">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Twitter</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nathan Gregori | Built with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
